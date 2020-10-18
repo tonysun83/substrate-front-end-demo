@@ -9,6 +9,7 @@ import AccountSelector from './AccountSelector';
 import Balances from './Balances';
 import BlockInfo from './BlockInfo';
 import BlockNumber from './BlockNumber';
+import BlockSearch from './BlockSearch';
 import Events from './Events';
 import Interactor from './Interactor';
 import Metadata from './Metadata';
@@ -64,6 +65,9 @@ function Main () {
           </Grid.Row>
           <Grid.Row stretched>
             <BlockInfo />
+          </Grid.Row>
+          <Grid.Row stretched>
+            <BlockSearch />
           </Grid.Row>
         </Grid>
       </Container>
